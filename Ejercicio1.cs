@@ -1,36 +1,44 @@
 ﻿using System;
 
-namespace Vectores1
+namespace TP1
 {
     class Program
     {
 
-        static int IngresoNumeros()
+        static int[] IngresarArray(string msj)
         {
 
-            int[] NumerosAIngresar = new int[20];
+            Console.WriteLine(msj);
+   
+            int[] NumerosAIngresar = new int[5];
 
             for (int i = 0; i < NumerosAIngresar.Length; i++)
 
             {
-                Console.WriteLine("Ingrese 20 números");
-
                 NumerosAIngresar[i] = int.Parse(Console.ReadLine());
-
-
-                return NumerosAIngresar;
             }
+
+            Console.WriteLine("Los números son: ");
+
+            foreach (var item in NumerosAIngresar)
+                Console.WriteLine(item);
+
+            return NumerosAIngresar;
+
+
         }
 
 
         static void Main(string[] args)
         {
-            int[] Numeros = IngresoNumeros();
-            int NumeroMayor;
-            int[] Pares;
-            int[] Condiciones;
 
-           
+
+            int[] NumerosIngresados = IngresarArray("Ingresa 5 números");
         }
     }
 }
+
+
+
+
+
