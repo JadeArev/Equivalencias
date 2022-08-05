@@ -5,7 +5,7 @@ namespace TP1
     class Program
     {
 
-        static int[] IngresarArray(string msj)
+        static int[] IngresarNumeros(string msj)
         {
 
             Console.WriteLine(msj);
@@ -33,7 +33,7 @@ namespace TP1
         {
 
 
-            int[] NumerosIngresados = IngresarArray("Ingresa 5 números");
+            int[] NumerosIngresados = IngresarNumeros("Ingresa 5 números");
         }
     }
 }
