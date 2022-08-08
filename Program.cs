@@ -51,11 +51,20 @@ namespace TP1
         }
 
 
-        static List<int> Ma5yM30(int[] arrayNums){
+        static List<int> Ma5yM30(int[] arrayNums, int x, int y){
             
-            List<int> MayoresA5 = new List<int>();
-            
+            List<int> May5yMen30 = new List<int>();
 
+            foreach(var item in arrayNums){
+
+                if (item < x && item > y){
+
+                    Ma5yM30.Add(item);
+                }
+
+            }
+
+            return Ma5yM30;
         }
 
 
@@ -67,12 +76,24 @@ namespace TP1
             int NumMayor = DevolverMayor(NumerosIngresados);
             Console.WriteLine("El numero mayor es: " + NumMayor);
 
+            
+
             List<int> NumsPares = DevolverPares(NumerosIngresados);
             
             foreach(int par in NumsPares)
                 {
                     Console.WriteLine("El número par es: " + par);
                 }
+
+
+            List<int> Condiciones = Ma5yM30(NumerosIngresados, 5, 30);
+
+            foreach(int nums in Condiciones)
+                {
+                    Console.WriteLine("El número par es: " + nums);
+                }
+          
+        }   
 
         }
     }
