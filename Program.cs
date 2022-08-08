@@ -12,7 +12,7 @@ namespace TP1
 
             Console.WriteLine(msj);
    
-            int[] NumerosAIngresar = new int[5];
+            int[] NumerosAIngresar = new int[20];
 
             for (int i = 0; i < NumerosAIngresar.Length; i++)
 
@@ -38,7 +38,7 @@ namespace TP1
 
         }
 
-        static List<int> DevolverPares(int [] arrayNums){
+        static List<int> DevolverPares(int[] arrayNums){
 
             List<int> pares = new List<int>();
 
@@ -50,10 +50,19 @@ namespace TP1
             return pares;
         }
 
+
+        static List<int> Ma5yM30(int[] arrayNums){
+            
+            List<int> MayoresA5 = new List<int>();
+            
+
+        }
+
+
         static void Main(string[] args)
         {
 
-            int[] NumerosIngresados = IngresarNumeros("Ingresa 5 números");
+            int[] NumerosIngresados = IngresarNumeros("Ingresa 20 números");
             
             int NumMayor = DevolverMayor(NumerosIngresados);
             Console.WriteLine("El numero mayor es: " + NumMayor);
