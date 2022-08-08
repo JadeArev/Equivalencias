@@ -1,0 +1,15 @@
+C:\Users\46208706\Desktop\Equivalencias\bin\Debug\net6.0\Equivalencias.exe
+C:\Users\46208706\Desktop\Equivalencias\bin\Debug\net6.0\Equivalencias.deps.json
+C:\Users\46208706\Desktop\Equivalencias\bin\Debug\net6.0\Equivalencias.runtimeconfig.json
+C:\Users\46208706\Desktop\Equivalencias\bin\Debug\net6.0\Equivalencias.dll
+C:\Users\46208706\Desktop\Equivalencias\bin\Debug\net6.0\Equivalencias.pdb
+C:\Users\46208706\Desktop\Equivalencias\obj\Debug\net6.0\Equivalencias.csproj.AssemblyReference.cache
+C:\Users\46208706\Desktop\Equivalencias\obj\Debug\net6.0\Equivalencias.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46208706\Desktop\Equivalencias\obj\Debug\net6.0\Equivalencias.AssemblyInfoInputs.cache
+C:\Users\46208706\Desktop\Equivalencias\obj\Debug\net6.0\Equivalencias.AssemblyInfo.cs
+C:\Users\46208706\Desktop\Equivalencias\obj\Debug\net6.0\Equivalencias.csproj.CoreCompileInputs.cache
+C:\Users\46208706\Desktop\Equivalencias\obj\Debug\net6.0\Equivalencias.dll
+C:\Users\46208706\Desktop\Equivalencias\obj\Debug\net6.0\refint\Equivalencias.dll
+C:\Users\46208706\Desktop\Equivalencias\obj\Debug\net6.0\Equivalencias.pdb
+C:\Users\46208706\Desktop\Equivalencias\obj\Debug\net6.0\Equivalencias.genruntimeconfig.cache
+C:\Users\46208706\Desktop\Equivalencias\obj\Debug\net6.0\ref\Equivalencias.dll
