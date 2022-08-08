@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Collections.Generic;
 
 namespace TP1
 {
@@ -37,11 +38,16 @@ namespace TP1
 
         }
 
+        static List<int> DevolverPares(int [] arrayNums){
 
-        static int[] DevolverPares(int [] arrayNums){
+            List<int> pares = new List<int>();
 
-            
-
+            foreach(var item in arrayNums){
+                if (item%2 == 0) {
+                    pares.Add(item);
+                }
+            }
+            return pares;
         }
 
         static void Main(string[] args)
@@ -51,6 +57,13 @@ namespace TP1
             
             int NumMayor = DevolverMayor(NumerosIngresados);
             Console.WriteLine("El numero mayor es: " + NumMayor);
+
+            List<int> NumsPares = DevolverPares(NumerosIngresados);
+            
+            foreach(int par in NumsPares)
+                {
+                    Console.WriteLine("El número par es: " + par);
+                }
 
         }
     }
