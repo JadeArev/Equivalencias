@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace TP1
 {
-    class Program
+    public static class Program
     {
 
         static int[] IngresarNumeros(string msj)
@@ -12,7 +12,7 @@ namespace TP1
 
             Console.WriteLine(msj);
    
-            int[] NumerosAIngresar = new int[20];
+            int[] NumerosAIngresar = new int[5];
 
             for (int i = 0; i < NumerosAIngresar.Length; i++)
 
@@ -51,27 +51,10 @@ namespace TP1
         }
 
 
-        static List<int> Ma5yM30(int[] arrayNums, int x, int y){
-            
-            List<int> May5yMen30 = new List<int>();
-
-            foreach(var item in arrayNums){
-
-                if (item < x && item > y){
-
-                    Ma5yM30.Add(item);
-                }
-
-            }
-
-            return Ma5yM30;
-        }
-
-
         static void Main(string[] args)
         {
 
-            int[] NumerosIngresados = IngresarNumeros("Ingresa 20 números");
+            int[] NumerosIngresados = IngresarNumeros("Ingresa 5 números");
             
             int NumMayor = DevolverMayor(NumerosIngresados);
             Console.WriteLine("El numero mayor es: " + NumMayor);
@@ -86,17 +69,13 @@ namespace TP1
                 }
 
 
-            List<int> Condiciones = Ma5yM30(NumerosIngresados, 5, 30);
 
-            foreach(int nums in Condiciones)
-                {
-                    Console.WriteLine("El número par es: " + nums);
-                }
+
           
         }   
 
         }
     }
-}
+
 
 
