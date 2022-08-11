@@ -51,6 +51,21 @@ namespace TP1
         }
 
 
+        static List<int> MostrarNumeros(int[] arrayNums){
+
+            List<int> Numeros = new List<int>();
+
+            foreach(var item in arrayNums){
+                if (item > 5 && item < 30) {
+                    Numeros.Add(item);
+                }
+            }
+            return Numeros;
+        }
+
+    
+
+
         static void Main(string[] args)
         {
 
@@ -69,8 +84,12 @@ namespace TP1
                 }
 
 
+            List<int> NumerosMostrados = MostrarNumeros(NumerosIngresados);
 
+            foreach(int numero in NumerosMostrados){
 
+                Console.WriteLine("Los numeritos son: " + numero);
+            }
           
         }   
 
