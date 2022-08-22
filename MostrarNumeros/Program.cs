@@ -75,20 +75,24 @@ namespace TP1
             Console.WriteLine("El numero mayor es: " + NumMayor);
 
             
+            Console.WriteLine("El número par es: " );
 
             List<int> NumsPares = DevolverPares(NumerosIngresados);
             
             foreach(int par in NumsPares)
                 {
-                    Console.WriteLine("El número par es: " + par);
+                    Console.WriteLine(par);
                 }
 
+
+
+            Console.WriteLine("Los numeritos son: ");
 
             List<int> NumerosMostrados = MostrarNumeros(NumerosIngresados);
 
             foreach(int numero in NumerosMostrados){
 
-                Console.WriteLine("Los numeritos son: " + numero);
+                Console.WriteLine(numero);
             }
           
         }   

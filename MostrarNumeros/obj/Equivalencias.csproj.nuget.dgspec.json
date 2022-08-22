@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\46208706\\Desktop\\Equivalencias\\Equivalencias.csproj": {}
+    "C:\\Users\\46208706\\Desktop\\Equivalencias\\MostrarNumeros\\Equivalencias.csproj": {}
   },
   "projects": {
-    "C:\\Users\\46208706\\Desktop\\Equivalencias\\Equivalencias.csproj": {
+    "C:\\Users\\46208706\\Desktop\\Equivalencias\\MostrarNumeros\\Equivalencias.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\46208706\\Desktop\\Equivalencias\\Equivalencias.csproj",
+        "projectUniqueName": "C:\\Users\\46208706\\Desktop\\Equivalencias\\MostrarNumeros\\Equivalencias.csproj",
         "projectName": "Equivalencias",
-        "projectPath": "C:\\Users\\46208706\\Desktop\\Equivalencias\\Equivalencias.csproj",
+        "projectPath": "C:\\Users\\46208706\\Desktop\\Equivalencias\\MostrarNumeros\\Equivalencias.csproj",
         "packagesPath": "C:\\Users\\46208706\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\46208706\\Desktop\\Equivalencias\\obj\\",
+        "outputPath": "C:\\Users\\46208706\\Desktop\\Equivalencias\\MostrarNumeros\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
