@@ -1,0 +1,15 @@
+C:\Users\46208706\Desktop\Equivalencias\OrtPalooza\bin\Debug\net6.0\OrtPalooza.exe
+C:\Users\46208706\Desktop\Equivalencias\OrtPalooza\bin\Debug\net6.0\OrtPalooza.deps.json
+C:\Users\46208706\Desktop\Equivalencias\OrtPalooza\bin\Debug\net6.0\OrtPalooza.runtimeconfig.json
+C:\Users\46208706\Desktop\Equivalencias\OrtPalooza\bin\Debug\net6.0\OrtPalooza.dll
+C:\Users\46208706\Desktop\Equivalencias\OrtPalooza\bin\Debug\net6.0\OrtPalooza.pdb
+C:\Users\46208706\Desktop\Equivalencias\OrtPalooza\obj\Debug\net6.0\OrtPalooza.csproj.AssemblyReference.cache
+C:\Users\46208706\Desktop\Equivalencias\OrtPalooza\obj\Debug\net6.0\OrtPalooza.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46208706\Desktop\Equivalencias\OrtPalooza\obj\Debug\net6.0\OrtPalooza.AssemblyInfoInputs.cache
+C:\Users\46208706\Desktop\Equivalencias\OrtPalooza\obj\Debug\net6.0\OrtPalooza.AssemblyInfo.cs
+C:\Users\46208706\Desktop\Equivalencias\OrtPalooza\obj\Debug\net6.0\OrtPalooza.csproj.CoreCompileInputs.cache
+C:\Users\46208706\Desktop\Equivalencias\OrtPalooza\obj\Debug\net6.0\OrtPalooza.dll
+C:\Users\46208706\Desktop\Equivalencias\OrtPalooza\obj\Debug\net6.0\refint\OrtPalooza.dll
+C:\Users\46208706\Desktop\Equivalencias\OrtPalooza\obj\Debug\net6.0\OrtPalooza.pdb
+C:\Users\46208706\Desktop\Equivalencias\OrtPalooza\obj\Debug\net6.0\OrtPalooza.genruntimeconfig.cache
+C:\Users\46208706\Desktop\Equivalencias\OrtPalooza\obj\Debug\net6.0\ref\OrtPalooza.dll
