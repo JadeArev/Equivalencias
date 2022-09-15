@@ -1,0 +1,15 @@
+C:\Users\devandroid\Desktop\Equivalencias\Enunciado\bin\Debug\net6.0\Enunciado.exe
+C:\Users\devandroid\Desktop\Equivalencias\Enunciado\bin\Debug\net6.0\Enunciado.deps.json
+C:\Users\devandroid\Desktop\Equivalencias\Enunciado\bin\Debug\net6.0\Enunciado.runtimeconfig.json
+C:\Users\devandroid\Desktop\Equivalencias\Enunciado\bin\Debug\net6.0\Enunciado.dll
+C:\Users\devandroid\Desktop\Equivalencias\Enunciado\bin\Debug\net6.0\Enunciado.pdb
+C:\Users\devandroid\Desktop\Equivalencias\Enunciado\obj\Debug\net6.0\Enunciado.csproj.AssemblyReference.cache
+C:\Users\devandroid\Desktop\Equivalencias\Enunciado\obj\Debug\net6.0\Enunciado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devandroid\Desktop\Equivalencias\Enunciado\obj\Debug\net6.0\Enunciado.AssemblyInfoInputs.cache
+C:\Users\devandroid\Desktop\Equivalencias\Enunciado\obj\Debug\net6.0\Enunciado.AssemblyInfo.cs
+C:\Users\devandroid\Desktop\Equivalencias\Enunciado\obj\Debug\net6.0\Enunciado.csproj.CoreCompileInputs.cache
+C:\Users\devandroid\Desktop\Equivalencias\Enunciado\obj\Debug\net6.0\Enunciado.dll
+C:\Users\devandroid\Desktop\Equivalencias\Enunciado\obj\Debug\net6.0\refint\Enunciado.dll
+C:\Users\devandroid\Desktop\Equivalencias\Enunciado\obj\Debug\net6.0\Enunciado.pdb
+C:\Users\devandroid\Desktop\Equivalencias\Enunciado\obj\Debug\net6.0\Enunciado.genruntimeconfig.cache
+C:\Users\devandroid\Desktop\Equivalencias\Enunciado\obj\Debug\net6.0\ref\Enunciado.dll
