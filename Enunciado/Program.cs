@@ -9,12 +9,12 @@ namespace HelloWorld
   {
     
 
-    static string IngresarPalabra(string msj){
+    static string IngresarNumeros(string msj){
 
 
     Console.WriteLine(msj);
 
-    string NuevaPalabra = Console.ReadLine();
+    int[] Numeros = int.Parse(Console.ReadLine());
 
     Console.WriteLine("La palabra ingresada es : " + NuevaPalabra);
 
@@ -27,7 +27,7 @@ namespace HelloWorld
     static void Main(string[] args)
     {
       
-      string Palabra = IngresarPalabra("Ingrese una palabra");
+      int[] NumerosIngresados = IngresarNumeros("Ingrese 20 números");
 
     }
   }
