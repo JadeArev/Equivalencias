@@ -58,6 +58,13 @@ namespace HelloWorld
       }
 
 
+      static void MostrarNumeros(ref int[] Numeros, ref int posicion1, ref int posicion2){
+
+
+        Console.WriteLine(Numeros[posicion1]);
+        Console.WriteLine(Numeros[posicion2]);
+      }
+
 
 
 
@@ -66,6 +73,7 @@ namespace HelloWorld
       
       int[] Numeros = ListarNumeros("Ingresar 5 números");
       IngresarPosiciones("Ingrese 2 posiciones");
+      MostrarNumeros(Numeros, posicion1, posicion2);
 
     }
   }
