@@ -8,23 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\devandroid\\.nuget\\packages\\": {},
+    "C:\\Users\\46208706\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\devandroid\\Desktop\\Equivalencias\\Enunciado\\Enunciado.csproj",
+      "projectUniqueName": "C:\\Users\\46208706\\Desktop\\Equivalencias\\Enunciado\\Enunciado.csproj",
       "projectName": "Enunciado",
-      "projectPath": "C:\\Users\\devandroid\\Desktop\\Equivalencias\\Enunciado\\Enunciado.csproj",
-      "packagesPath": "C:\\Users\\devandroid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\devandroid\\Desktop\\Equivalencias\\Enunciado\\obj\\",
+      "projectPath": "C:\\Users\\46208706\\Desktop\\Equivalencias\\Enunciado\\Enunciado.csproj",
+      "packagesPath": "C:\\Users\\46208706\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\46208706\\Desktop\\Equivalencias\\Enunciado\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\devandroid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\46208706\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

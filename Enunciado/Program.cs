@@ -21,7 +21,6 @@ namespace HelloWorld
 
         }
 
-
         Console.WriteLine("Los números de la lista son: ");
 
         foreach(var num in ListaNumeros){
@@ -33,47 +32,52 @@ namespace HelloWorld
 
       }
 
-    
-      static void IngresarPosiciones(string msj){
-
-        Console.WriteLine(msj);
 
 
-          int posicion1 = int.Parse(Console.ReadLine());
-          int posicion2 = int.Parse(Console.ReadLine());
+      static void IngresarPosiciones(int[] Numeros, int posicion1, int posicion2){
 
-          if (posicion1 > 20 || posicion2 > 20){
 
-            Console.WriteLine("No se puede ingresar un número mayor a 20 posiciones");
-          }
+        if(posicion1 >= 5 || posicion2 >= 5){
 
-          else{
+          Console.WriteLine("Se alcanzó la máxima cantidad de números");
 
-            Console.WriteLine("La primera posición es: " + posicion1);
-            Console.WriteLine("La segunda posición es: " + posicion2);
+        }
 
-          }
-        
-        
       }
 
 
-      static void MostrarNumeros(ref int[] Numeros, ref int posicion1, ref int posicion2){
-
+      static void MostrarPosiciones(int[] Numeros, int posicion1, int posicion2){
 
         Console.WriteLine(Numeros[posicion1]);
         Console.WriteLine(Numeros[posicion2]);
+
       }
 
 
+      static int Promedio(int[] Numeros, int posicion1, int posicion2){
 
+        if(Numeros[posicion1] %&& Numeros[posicion2])
+
+      }
 
     static void Main(string[] args)
     {
+
+
+      int[] Numeros = ListarNumeros("Ingresar no más de 20 números");
+
+
+      Console.WriteLine("siguiente, ingrese dos posiciones");
+
+      int posicion1 = int.Parse(Console.ReadLine());
+      int posicion2 = int.Parse(Console.ReadLine());
+
       
-      int[] Numeros = ListarNumeros("Ingresar 5 números");
-      IngresarPosiciones("Ingrese 2 posiciones");
-      MostrarNumeros(Numeros, posicion1, posicion2);
+
+     IngresarPosiciones(Numeros, posicion1, posicion2); 
+
+
+     MostrarPosiciones(Numeros, posicion1, posicion2);
 
     }
   }
