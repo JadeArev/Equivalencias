@@ -54,11 +54,16 @@ namespace HelloWorld
       }
 
 
-      static int Promedio(int[] Numeros, int posicion1, int posicion2){
+      static int Promedio(int[] Numeros){
+        
+        for(int i = 0; i < Numeros.Length; i++){
 
-        if(Numeros[posicion1] %&& Numeros[posicion2])
-
-      }
+          if(Numeros[i] % 2 == 0){
+            
+          }
+          
+        }
+      
 
     static void Main(string[] args)
     {

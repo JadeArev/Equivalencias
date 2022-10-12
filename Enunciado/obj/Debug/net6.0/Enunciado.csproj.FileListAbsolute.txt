@@ -28,3 +28,11 @@ C:\Users\46208706\Desktop\Equivalencias\Enunciado\obj\Debug\net6.0\refint\Enunci
 C:\Users\46208706\Desktop\Equivalencias\Enunciado\obj\Debug\net6.0\Enunciado.pdb
 C:\Users\46208706\Desktop\Equivalencias\Enunciado\obj\Debug\net6.0\Enunciado.genruntimeconfig.cache
 C:\Users\46208706\Desktop\Equivalencias\Enunciado\obj\Debug\net6.0\ref\Enunciado.dll
+C:\Users\Jade\Desktop\Equivalencias\Enunciado\obj\Debug\net6.0\Enunciado.csproj.AssemblyReference.cache
+C:\Users\Jade\Desktop\Equivalencias\Enunciado\obj\Debug\net6.0\Enunciado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jade\Desktop\Equivalencias\Enunciado\obj\Debug\net6.0\Enunciado.AssemblyInfoInputs.cache
+C:\Users\Jade\Desktop\Equivalencias\Enunciado\obj\Debug\net6.0\Enunciado.AssemblyInfo.cs
+C:\Users\Jade\Desktop\Equivalencias\Enunciado\obj\Debug\net6.0\Enunciado.csproj.CoreCompileInputs.cache
+C:\Users\Jade\Desktop\Equivalencias\Enunciado\obj\Debug\net6.0\Enunciado.dll
+C:\Users\Jade\Desktop\Equivalencias\Enunciado\obj\Debug\net6.0\refint\Enunciado.dll
+C:\Users\Jade\Desktop\Equivalencias\Enunciado\obj\Debug\net6.0\Enunciado.pdb
