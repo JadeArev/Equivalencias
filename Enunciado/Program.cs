@@ -48,6 +48,8 @@ namespace HelloWorld
 
       static void MostrarPosiciones(int[] Numeros, int posicion1, int posicion2){
 
+
+        Console.WriteLine("Los números son:");
         Console.WriteLine(Numeros[posicion1]);
         Console.WriteLine(Numeros[posicion2]);
 
@@ -56,20 +58,27 @@ namespace HelloWorld
 
       static int Promedio(int[] Numeros){
         
-        for(int i = 0; i < Numeros.Length; i++){
+        int Suma = 0;
+      
 
-          if(Numeros[i] % 2 == 0){
-            
-          }
-          
+        for(int i = 0; i < Numeros.Length; i++) {
+
+            Suma += Numeros[i];
+
         }
+
+        Console.WriteLine(Suma);
+
+          return Suma;
+
+      }
       
 
     static void Main(string[] args)
     {
 
 
-      int[] Numeros = ListarNumeros("Ingresar no más de 20 números");
+      int[] Numeros = ListarNumeros("Ingresar 5 números");
 
 
       Console.WriteLine("siguiente, ingrese dos posiciones");
@@ -77,12 +86,15 @@ namespace HelloWorld
       int posicion1 = int.Parse(Console.ReadLine());
       int posicion2 = int.Parse(Console.ReadLine());
 
-      
-
+  
      IngresarPosiciones(Numeros, posicion1, posicion2); 
 
 
      MostrarPosiciones(Numeros, posicion1, posicion2);
+
+
+     int ListaPromedio = Promedio(Numeros);
+    
 
     }
   }
