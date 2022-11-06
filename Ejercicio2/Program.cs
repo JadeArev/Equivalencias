@@ -6,13 +6,9 @@ namespace TP1
 {
     public class Program
     {
-        public static void Main(string [] args)
-        {
-            IngresarNumeros();
+        
 
-        }
-
-        public void  IngresarNumeros()
+        static void  IngresarNumeros()
         {
             int [] Numeros = new int [10];
             int Pares = 0;
@@ -85,6 +81,12 @@ namespace TP1
         static bool EsCero(int Numero)
         {
             return Numero == 0;
+        }
+
+        public static void Main(string [] args)
+        {
+            IngresarNumeros();
+
         }
 
     }
