@@ -30,29 +30,22 @@ namespace HelloWorld
             }
 
             return ListaNumeros;
-
         }
         static void IngresarPosiciones(int [] Numeros, int posicion1, int posicion2)
         {
 
-
             if (posicion1 >= 5 || posicion2 >= 5)
             {
-
                 Console.WriteLine("Se alcanzó la máxima cantidad de números");
             }
 
         }
 
-
         static void MostrarPosiciones(int [] Numeros, int posicion1, int posicion2)
         {
-
             Console.WriteLine(Numeros [posicion1]);
             Console.WriteLine(Numeros [posicion2]);
-
         }
-
 
         static double Promedio(int [] Numeros)
         {
@@ -70,8 +63,6 @@ namespace HelloWorld
 
         }
 
-
-
         static void Main(string [] args)
         {
             int [] Numeros = ListarNumeros("Ingresar no más de 20 números");
@@ -79,10 +70,7 @@ namespace HelloWorld
             int posicion1 = int.Parse(Console.ReadLine());
             int posicion2 = int.Parse(Console.ReadLine());
             IngresarPosiciones(Numeros, posicion1, posicion2);
-
-
             MostrarPosiciones(Numeros, posicion1, posicion2);
-
             double Resultado = Promedio(Numeros);
             Console.WriteLine("El promedio es : " + Resultado);
 
