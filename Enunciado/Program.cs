@@ -55,7 +55,7 @@ namespace HelloWorld
             {
                 if (i % 2 == 0)
                 {
-                    Suma += Numeros [i];
+                    Suma += Numeros[i];
                     Divisor++;
                 }
             }

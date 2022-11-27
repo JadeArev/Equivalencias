@@ -8,8 +8,10 @@ namespace TP1
     {
         
 
-        static void  IngresarNumeros()
+        static void  IngresarNumeros(string msj)
         {
+            Console.WriteLine(msj);
+
             int [] Numeros = new int [10];
             int Pares = 0;
             int Impares = 0;
@@ -85,7 +87,7 @@ namespace TP1
 
         public static void Main(string [] args)
         {
-            IngresarNumeros();
+            IngresarNumeros("Ingrese 10 números");
 
         }
 
