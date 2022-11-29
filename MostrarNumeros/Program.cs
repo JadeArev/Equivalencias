@@ -6,14 +6,11 @@ namespace TP1
 {
     public static class Program
     {
-
         static int[] IngresarNumeros(string msj)
         {
-
             Console.WriteLine(msj);
    
             int[] NumerosAIngresar = new int[5];
-
             for (int i = 0; i < NumerosAIngresar.Length; i++)
 
             {
@@ -24,24 +21,16 @@ namespace TP1
 
             foreach (var item in NumerosAIngresar)
                 Console.WriteLine(item);
-
             return NumerosAIngresar;
-
         }
 
         static int DevolverMayor(int[] arrayNums){
-
                 int NumMayor = arrayNums.Max();
-                
-
                 return NumMayor;
-
         }
-
         static List<int> DevolverPares(int[] arrayNums){
 
             List<int> pares = new List<int>();
-
             foreach(var item in arrayNums){
                 if (item%2 == 0) {
                     pares.Add(item);
@@ -49,12 +38,9 @@ namespace TP1
             }
             return pares;
         }
-
-
         static List<int> MostrarNumeros(int[] arrayNums){
 
             List<int> Numeros = new List<int>();
-
             foreach(var item in arrayNums){
                 if (item > 5 && item < 30) {
                     Numeros.Add(item);
@@ -62,10 +48,6 @@ namespace TP1
             }
             return Numeros;
         }
-
-    
-
-
         static void Main(string[] args)
         {
 
@@ -84,8 +66,6 @@ namespace TP1
                     Console.WriteLine(par);
                 }
 
-
-
             Console.WriteLine("Los numeritos son: ");
 
             List<int> NumerosMostrados = MostrarNumeros(NumerosIngresados);
@@ -93,10 +73,8 @@ namespace TP1
             foreach(int numero in NumerosMostrados){
 
                 Console.WriteLine(numero);
-            }
-          
+            }   
         }   
-
         }
     }
 
