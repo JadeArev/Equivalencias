@@ -7,29 +7,25 @@ namespace TP1
     public static class Program
     {
 
-    static string[] IngresarModelos(string msj){
+    static void IngresarModelos(string msj, string[] Modelos){
 
-    Console.WriteLine(msj);
+        Console.WriteLine(msj);
    
-    string[] Modelos = new string[10];
-        
-        for (string i = 0; i < Modelos.Length; i++)
+        for (int i = 0; i < Modelos.Length; i++)
         {
             Modelos[i] = Console.ReadLine();
         }  
 
-    foreach(string modelo in Modelos){
-
+        foreach(string modelo in Modelos){
         Console.WriteLine(modelo);
+        }
     }
-        return Modelos;
-    }
-
 
         static void Main(string[] args)
 
         {
-            string[] ModelosIngreados = IngresarModelos("Ingresar 10 modelos de autos");
+            string[] ModelosIngresados = new string[10];
+            IngresarModelos("Ingresar 10 modelos de autos", ModelosIngresados);
         }   
         }
     }
