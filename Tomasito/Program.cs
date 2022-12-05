@@ -17,7 +17,6 @@ namespace TP1
             Console.WriteLine("Ingrese la cantidad de alumnos para el curso");
              int CantEstudiantes = int.Parse(Console.ReadLine());
 
-
                 Total += CantEstudiantes;
                 SinTomasito = Total - 1;
                 
@@ -29,12 +28,27 @@ namespace TP1
         }
 
 
+        static void NombreyDinero(string[] Nombres){
+
+            for(int i = 0; i < Nombres.Length; i++){
+
+                Console.WriteLine("Ingresa tu nombre");
+                Nombres[i] = Console.ReadLine();
+            }
+
+            for (int i = 0; i < Nombres.Length; i++) 
+{
+            Console.WriteLine(Nombres[i]);
+}
+        }
+
         static void Main(string[] args)
 
         {
             int Cursos = 4;
-           int TotalAlumnos = EstudiantesXCurso(Cursos);
-           
+            int TotalAlumnos = EstudiantesXCurso(Cursos);
+            string[] Nombres = new string[TotalAlumnos];
+            NombreyDinero(Nombres);
         }   
         }
     }
