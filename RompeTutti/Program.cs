@@ -11,9 +11,9 @@ namespace TP1
 
         Console.WriteLine(msj);
    
-        for (int i = 0; i < Modelos.Length; i++)
+        for (int modelo = 0; modelo < Modelos.Length; modelo++)
         {
-            Modelos[i] = Console.ReadLine();
+            Modelos[modelo] = Console.ReadLine();
         }  
 
         foreach(string modelo in Modelos){
@@ -21,11 +21,21 @@ namespace TP1
         }
     }
 
+        static void Arreglar(int Dias, int Arreglos){
+
+            
+
+        }
+
         static void Main(string[] args)
 
         {
+            int totalTrabajos = 0;
+            int Dias = 6;
+            int Arreglos = 8;
             string[] ModelosIngresados = new string[10];
             IngresarModelos("Ingresar 10 modelos de autos", ModelosIngresados);
+            Arreglar(Dias, Arreglos);
         }   
         }
     }
