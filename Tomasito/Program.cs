@@ -28,18 +28,27 @@ namespace TP1
         }
 
 
-        static void NombreyDinero(string[] Nombres){
+        static void NombreyDinero(string[] Nombres, int[] Dinero){
 
-            for(int i = 0; i < Nombres.Length; i++){
+            for(int nombre = 0; nombre < Nombres.Length; nombre++){
 
                 Console.WriteLine("Ingresa tu nombre");
-                Nombres[i] = Console.ReadLine();
+                Nombres[nombre] = Console.ReadLine();            
             }
 
-            for (int i = 0; i < Nombres.Length; i++) 
-{
-            Console.WriteLine(Nombres[i]);
-}
+            for(int dinero = 0; dinero < Nombres.Length; dinero++){
+                Console.WriteLine("Ingrese la cantidad de dinero:");
+                Dinero[dinero] = int.Parse(Console.ReadLine());
+            }
+           
+        }
+
+
+        static string[] MasDineroxCurso(int Cursos, string[] Nombres){
+
+
+
+           
         }
 
         static void Main(string[] args)
@@ -48,7 +57,10 @@ namespace TP1
             int Cursos = 4;
             int TotalAlumnos = EstudiantesXCurso(Cursos);
             string[] Nombres = new string[TotalAlumnos];
-            NombreyDinero(Nombres);
+            int[] Dinero = new int[TotalAlumnos];
+            NombreyDinero(Nombres, Dinero);
+            string[] AlumnoMasPlataPuso = MasDineroxCurso(Cursos, Nombres);
+            
         }   
         }
     }
