@@ -9,41 +9,32 @@ namespace TP1
         static int[] Array(){
 
             int[] Numeros = new int[5];
-
             for(int i = 0; i < Numeros.Length; i++){
             Numeros[i] = int.Parse(Console.ReadLine());
             }
-
             return Numeros;
         }
         static int MenorElemento(int[] ArrayNumeros){
-
             int Menor = ArrayNumeros.Min();
             return Menor;
         }
         static int Repite(int Menor, int[]ArrayNumeros){
 
             int cantidad = 0;
-
             for(int i = 0; i < ArrayNumeros.Length; i++){
-
                 if(ArrayNumeros[i] == Menor){
                     cantidad++;
                 }
             }
             Console.WriteLine("La cantidad de veces que se repite el número menor " + Menor + " es " + cantidad);
-            
             return cantidad;
         }
-
         static int[] Doble(int[] ArrayNumeros){
-
             for(int i = 0; i < ArrayNumeros.Length; i++){
 
-                ArrayNumeros[i] = ArrayNumeros[i] * 2;
+                ArrayNumeros[i] *= 2;
                 Console.WriteLine("Los dobles son: " + ArrayNumeros[i]);
             }
-
             return ArrayNumeros;
         }
         static void Main(string[] args)
