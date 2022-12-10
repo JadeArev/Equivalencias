@@ -1,0 +1,15 @@
+C:\Users\Jade\Desktop\Equivalencias\Trabajadores\bin\Debug\net6.0\Trabajadores.exe
+C:\Users\Jade\Desktop\Equivalencias\Trabajadores\bin\Debug\net6.0\Trabajadores.deps.json
+C:\Users\Jade\Desktop\Equivalencias\Trabajadores\bin\Debug\net6.0\Trabajadores.runtimeconfig.json
+C:\Users\Jade\Desktop\Equivalencias\Trabajadores\bin\Debug\net6.0\Trabajadores.dll
+C:\Users\Jade\Desktop\Equivalencias\Trabajadores\bin\Debug\net6.0\Trabajadores.pdb
+C:\Users\Jade\Desktop\Equivalencias\Trabajadores\obj\Debug\net6.0\Trabajadores.csproj.AssemblyReference.cache
+C:\Users\Jade\Desktop\Equivalencias\Trabajadores\obj\Debug\net6.0\Trabajadores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jade\Desktop\Equivalencias\Trabajadores\obj\Debug\net6.0\Trabajadores.AssemblyInfoInputs.cache
+C:\Users\Jade\Desktop\Equivalencias\Trabajadores\obj\Debug\net6.0\Trabajadores.AssemblyInfo.cs
+C:\Users\Jade\Desktop\Equivalencias\Trabajadores\obj\Debug\net6.0\Trabajadores.csproj.CoreCompileInputs.cache
+C:\Users\Jade\Desktop\Equivalencias\Trabajadores\obj\Debug\net6.0\Trabajadores.dll
+C:\Users\Jade\Desktop\Equivalencias\Trabajadores\obj\Debug\net6.0\refint\Trabajadores.dll
+C:\Users\Jade\Desktop\Equivalencias\Trabajadores\obj\Debug\net6.0\Trabajadores.pdb
+C:\Users\Jade\Desktop\Equivalencias\Trabajadores\obj\Debug\net6.0\Trabajadores.genruntimeconfig.cache
+C:\Users\Jade\Desktop\Equivalencias\Trabajadores\obj\Debug\net6.0\ref\Trabajadores.dll

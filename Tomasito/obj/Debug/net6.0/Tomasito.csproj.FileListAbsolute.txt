@@ -1,0 +1,15 @@
+C:\Users\46208706\Desktop\Equivalencias\Tomasito\obj\Debug\net6.0\Tomasito.csproj.AssemblyReference.cache
+C:\Users\46208706\Desktop\Equivalencias\Tomasito\obj\Debug\net6.0\Tomasito.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46208706\Desktop\Equivalencias\Tomasito\obj\Debug\net6.0\Tomasito.AssemblyInfoInputs.cache
+C:\Users\46208706\Desktop\Equivalencias\Tomasito\obj\Debug\net6.0\Tomasito.AssemblyInfo.cs
+C:\Users\46208706\Desktop\Equivalencias\Tomasito\obj\Debug\net6.0\Tomasito.csproj.CoreCompileInputs.cache
+C:\Users\46208706\Desktop\Equivalencias\Tomasito\bin\Debug\net6.0\Tomasito.exe
+C:\Users\46208706\Desktop\Equivalencias\Tomasito\bin\Debug\net6.0\Tomasito.deps.json
+C:\Users\46208706\Desktop\Equivalencias\Tomasito\bin\Debug\net6.0\Tomasito.runtimeconfig.json
+C:\Users\46208706\Desktop\Equivalencias\Tomasito\bin\Debug\net6.0\Tomasito.dll
+C:\Users\46208706\Desktop\Equivalencias\Tomasito\bin\Debug\net6.0\Tomasito.pdb
+C:\Users\46208706\Desktop\Equivalencias\Tomasito\obj\Debug\net6.0\Tomasito.dll
+C:\Users\46208706\Desktop\Equivalencias\Tomasito\obj\Debug\net6.0\refint\Tomasito.dll
+C:\Users\46208706\Desktop\Equivalencias\Tomasito\obj\Debug\net6.0\Tomasito.pdb
+C:\Users\46208706\Desktop\Equivalencias\Tomasito\obj\Debug\net6.0\Tomasito.genruntimeconfig.cache
+C:\Users\46208706\Desktop\Equivalencias\Tomasito\obj\Debug\net6.0\ref\Tomasito.dll

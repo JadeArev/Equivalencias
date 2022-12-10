@@ -9,6 +9,7 @@ namespace HelloWorld
     static void Main(string[] args)
     {
 
+<<<<<<< HEAD
       int dniQueSePatinoTodo = 0;
       int dia1Recaudacion = 0;
       int dia2Recaudacion = 0;
@@ -38,6 +39,11 @@ for (int i = 0; i < Ventas.Length; i++)
 
       }
 
+=======
+            string[] VecEntradas = {"GENERAL","PREFERENCIAL","VIP","PREMIUM","FAN"};
+         
+            int[] VecPrecios =  {3500,6700,10000,15000,25000};
+>>>>>>> ab34d7417ff2302c9dfc7c487243d7932dd31b62
     }
   }
 }
