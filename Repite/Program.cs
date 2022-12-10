@@ -40,10 +40,9 @@ namespace TP1
 
             for(int i = 0; i < ArrayNumeros.Length; i++){
 
-                ArrayNumeros[i] *= 2;
+                ArrayNumeros[i] = ArrayNumeros[i] * 2;
+                Console.WriteLine("Los dobles son: " + ArrayNumeros[i]);
             }
-            
-            Console.WriteLine(ArrayNumeros[i]);
 
             return ArrayNumeros;
         }
@@ -53,7 +52,6 @@ namespace TP1
             int Menor = MenorElemento(ArrayNumeros);
             int cantidad = Repite(Menor, ArrayNumeros);
             int[] Dobles = Doble(ArrayNumeros);
-            Console.WriteLine(Dobles);
         }   
     }
 }
