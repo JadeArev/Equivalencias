@@ -1,0 +1,15 @@
+C:\Users\Jade\Desktop\Equivalencias\Repite\obj\Debug\net6.0\Repite.csproj.AssemblyReference.cache
+C:\Users\Jade\Desktop\Equivalencias\Repite\obj\Debug\net6.0\Repite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jade\Desktop\Equivalencias\Repite\obj\Debug\net6.0\Repite.AssemblyInfoInputs.cache
+C:\Users\Jade\Desktop\Equivalencias\Repite\obj\Debug\net6.0\Repite.AssemblyInfo.cs
+C:\Users\Jade\Desktop\Equivalencias\Repite\obj\Debug\net6.0\Repite.csproj.CoreCompileInputs.cache
+C:\Users\Jade\Desktop\Equivalencias\Repite\bin\Debug\net6.0\Repite.exe
+C:\Users\Jade\Desktop\Equivalencias\Repite\bin\Debug\net6.0\Repite.deps.json
+C:\Users\Jade\Desktop\Equivalencias\Repite\bin\Debug\net6.0\Repite.runtimeconfig.json
+C:\Users\Jade\Desktop\Equivalencias\Repite\bin\Debug\net6.0\Repite.dll
+C:\Users\Jade\Desktop\Equivalencias\Repite\bin\Debug\net6.0\Repite.pdb
+C:\Users\Jade\Desktop\Equivalencias\Repite\obj\Debug\net6.0\Repite.dll
+C:\Users\Jade\Desktop\Equivalencias\Repite\obj\Debug\net6.0\refint\Repite.dll
+C:\Users\Jade\Desktop\Equivalencias\Repite\obj\Debug\net6.0\Repite.pdb
+C:\Users\Jade\Desktop\Equivalencias\Repite\obj\Debug\net6.0\Repite.genruntimeconfig.cache
+C:\Users\Jade\Desktop\Equivalencias\Repite\obj\Debug\net6.0\ref\Repite.dll
