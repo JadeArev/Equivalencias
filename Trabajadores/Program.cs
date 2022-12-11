@@ -15,12 +15,9 @@ namespace TP1
                 Nombres[i] = Console.ReadLine();
                 Console.WriteLine("Ingrese el sueldo "+(i+1)+": ");
                 Sueldos[i] = int.Parse(Console.ReadLine());
-
-        }
+            }
 
        }
-
-
        static void MayorSueldo(string[] Nombres, int[] Sueldos){
 
            int mayor;
