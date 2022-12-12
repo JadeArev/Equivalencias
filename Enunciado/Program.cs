@@ -29,7 +29,7 @@ namespace HelloWorld
         }
         static void IngresarPosiciones(int [] Numeros, int posicion1, int posicion2)
         {
-            if (posicion1 >= 5 || posicion2 >= 5)
+            if (posicion1 >= Numeros.Length|| posicion2 >= Numeros.Length)
             {
                 Console.WriteLine("Se alcanzó la máxima cantidad de números");
             }
