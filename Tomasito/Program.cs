@@ -11,13 +11,14 @@ namespace TP1
             int CantAlumnos;
     
             for(int curso = 0; curso < Cursos; curso++){
-                Console.WriteLine("Ingrese la cantidad de alumnos en el curso " + (curso));
+                Console.WriteLine("Ingrese la cantidad de alumnos en el curso " + (curso+1));
                 CantAlumnos = int.Parse(Console.ReadLine());
                 string[] Nombres = new string[CantAlumnos];
                 int[] Dinero = new int[CantAlumnos];
 
-                    if(curso == 3){
+                    if(curso == 2){
                         CantAlumnos--;
+                        Console.WriteLine("Este es el curso sin Tomasito");
                     }
 
                 for(int alumno = 0; alumno < CantAlumnos; alumno++){
@@ -27,10 +28,8 @@ namespace TP1
                     Dinero[alumno] = int.Parse(Console.ReadLine());
 
                 }
-
                 MasPlata(Dinero, Nombres);
-                RecaudacionXCurso(Dinero);
-
+                RecaudacionXCurso(Cursos, Dinero);
             }
         }
         static void MasPlata(int[] Dinero, string[] Nombres){
@@ -47,7 +46,7 @@ namespace TP1
             }
                 Console.WriteLine("el que más plata puso fue " + NombreMasPlata);
         }
-        static void RecaudacionXCurso(int[] Dinero){
+        static void RecaudacionXCurso(int Cursos, int[] Dinero){
 
             int CantCurso = 0;
 
@@ -57,24 +56,23 @@ namespace TP1
             }
                 Console.WriteLine("La cantidad recaudada en total en este curso es " + CantCurso);
 
-                RecaudacionTotal(CantCurso);
-      
+                RecaudacionTotal(Cursos, CantCurso);
         }
 
-        static void RecaudacionTotal(int CantCurso){
+        static void RecaudacionTotal(int Cursos, int CantCurso){
 
-                int Total = 0;
-                for(int i = 0; i < CantCurso; i++){
-                    Total += CantCurso;
-                }
-                
+            int Total = 0;
 
-            Console.WriteLine("La suma total de todo es: " + Total);
+            for(int i = 0; i < CantCurso; i++){
+
+                Total += CantCurso;
+            }
+                Console.WriteLine("La recaudación total es " + Total);
         }
         static void Main(string[] args){
             int Cursos = 4;
             IngresarAlumnos(Cursos);
-           
+
         }
     }
 }
