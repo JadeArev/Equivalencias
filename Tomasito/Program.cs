@@ -9,6 +9,8 @@ namespace TP1
         static void IngresarAlumnos(int Cursos){
 
             int CantAlumnos;
+            int Total = 0;
+            int Promedio = 0;
     
             for(int curso = 0; curso < Cursos; curso++){
                 Console.WriteLine("Ingrese la cantidad de alumnos en el curso " + (curso+1));
@@ -29,9 +31,11 @@ namespace TP1
 
                 }
                 MasPlata(Dinero, Nombres);
-                RecaudacionXCurso(Cursos, Dinero);
+                Total += RecaudacionXCurso(Cursos, Dinero, CantAlumnos);
             }
-        }
+            Console.WriteLine("La recaudación total entre todos es " + Total);
+            Console.WriteLine("El promedio de dinero es " + Promedio);
+;        }
         static void MasPlata(int[] Dinero, string[] Nombres){
 
             string NombreMasPlata = "";
@@ -46,33 +50,25 @@ namespace TP1
             }
                 Console.WriteLine("el que más plata puso fue " + NombreMasPlata);
         }
-        static void RecaudacionXCurso(int Cursos, int[] Dinero){
+        static int RecaudacionXCurso(int Cursos, int[] Dinero, int CantAlumnos){
 
             int CantCurso = 0;
+            int Promedio = 0;
 
             for(int i = 0; i < Dinero.Length; i++){
 
                 CantCurso += Dinero[i];
             }
+                Promedio = CantCurso/CantAlumnos;
+
                 Console.WriteLine("La cantidad recaudada en total en este curso es " + CantCurso);
-
-                RecaudacionTotal(Cursos, CantCurso);
-        }
-
-        static void RecaudacionTotal(int Cursos, int CantCurso){
-
-            int Total = 0;
-
-            for(int i = 0; i < CantCurso; i++){
-
-                Total += CantCurso;
-            }
-                Console.WriteLine("La recaudación total es " + Total);
+                Console.WriteLine("El promedio recaudado en este curso es " + Promedio);
+                
+            return CantCurso;
         }
         static void Main(string[] args){
             int Cursos = 4;
             IngresarAlumnos(Cursos);
-
         }
     }
 }

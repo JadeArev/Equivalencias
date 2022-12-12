@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jade\\Desktop\\Equivalencias\\Tomasito\\Tomasito.csproj": {}
+    "C:\\Users\\46208706\\Desktop\\Equivalencias\\Tomasito\\Tomasito.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jade\\Desktop\\Equivalencias\\Tomasito\\Tomasito.csproj": {
+    "C:\\Users\\46208706\\Desktop\\Equivalencias\\Tomasito\\Tomasito.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jade\\Desktop\\Equivalencias\\Tomasito\\Tomasito.csproj",
+        "projectUniqueName": "C:\\Users\\46208706\\Desktop\\Equivalencias\\Tomasito\\Tomasito.csproj",
         "projectName": "Tomasito",
-        "projectPath": "C:\\Users\\Jade\\Desktop\\Equivalencias\\Tomasito\\Tomasito.csproj",
-        "packagesPath": "C:\\Users\\Jade\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jade\\Desktop\\Equivalencias\\Tomasito\\obj\\",
+        "projectPath": "C:\\Users\\46208706\\Desktop\\Equivalencias\\Tomasito\\Tomasito.csproj",
+        "packagesPath": "C:\\Users\\46208706\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\46208706\\Desktop\\Equivalencias\\Tomasito\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Jade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\46208706\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

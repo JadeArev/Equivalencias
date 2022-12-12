@@ -8,7 +8,7 @@ namespace TP1
     {
         
 
-        static void  IngresarNumeros(string msj)
+        static void IngresarNumeros(string msj)
         {
             Console.WriteLine(msj);
 
@@ -20,12 +20,9 @@ namespace TP1
             int SegundaDocena = 0;
             int TerceraDocena = 0;
 
-
-
             for (int i = 0; i < Numeros.Length; i++)
             {
                 Numeros [i] = int.Parse(Console.ReadLine());
-
             }
             foreach (int a in Numeros)
             {
