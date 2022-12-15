@@ -62,7 +62,6 @@ namespace HelloWorld
         dni = int.Parse(Console.ReadLine());
         }
 
-      
 
         Console.WriteLine("la persona que más gastó hasta ahora es " + dniMasGasto + " cuyo gasto fue de " + MasGasto);
 
@@ -79,9 +78,8 @@ namespace HelloWorld
 
        RecaudacionXDia[dia-1] += recaudacion;
       
-      return RecaudacionXDia;
+        return RecaudacionXDia;
       }
-
       static int Posicion(string tipoEntrada, string[] Entradas){
 
           int posicion = -1;
@@ -98,15 +96,12 @@ namespace HelloWorld
           i++;
         }
         return posicion;
-
       }
       static int[] MasVendidas(int posicion, int cantEntradas, int[] CantEntradasVendidas){
 
          CantEntradasVendidas[posicion] += cantEntradas;
         return CantEntradasVendidas;
       }
-
-
       }
     }
   
