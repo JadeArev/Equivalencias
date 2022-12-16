@@ -45,7 +45,7 @@ namespace HelloWorld
 
             PrecioEntrada = Precios[i];
           }
-        }
+        } // hacer la búsqueda con un WHILE EN VEZ DE FOR
 
          if(PrecioEntrada * cantEntradas > MasGasto){
           MasGasto = PrecioEntrada * cantEntradas;
@@ -60,6 +60,8 @@ namespace HelloWorld
         Console.WriteLine("Ingrese su DNI");
         dni = int.Parse(Console.ReadLine());
         }
+
+        Console.WriteLine("" + Entradas[posicion] + Precios[posicion]);
 
         Console.WriteLine("la persona que más gastó hasta ahora es " + dniMasGasto + " cuyo gasto fue de " + MasGasto);
 
@@ -76,7 +78,6 @@ namespace HelloWorld
 
         RecaudacionXDia[dia-1] += recaudacion;
       
-
           return RecaudacionXDia;
       }
       static int Posicion(string tipoEntrada, string[] Entradas){
@@ -90,6 +91,7 @@ namespace HelloWorld
           if(tipoEntrada == Entradas[i]){
 
             posicion = i;
+
             aparecio = true;
           }
           i++;

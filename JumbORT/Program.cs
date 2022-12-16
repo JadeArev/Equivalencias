@@ -26,13 +26,38 @@ namespace HelloWorld
         while(dni != -1){
             
             Console.WriteLine("Ingresa el número de caja:");
-            numCaja = int.Parse(Console.ReadLine());
+            numCaja = PedirCaja();
 
+            PedirCaja(){
+
+            numCaja = int.Parse(Console.ReadLine());        
+            
+            while(numCaja < 0 || numCaja > 10){
+                Console.WriteLine("pedir");
+                numCaja = int.Parse(Console.ReadLine());        
+
+            }
+
+                }
+        
             Console.WriteLine("Ingrese el producto:");
             producto = Console.ReadLine().ToUpper();
 
+            while(producto!= "zzz"){
+
+                producto = validarproducto(Array de productos);
+                if(producto==-1){
+                    cons
+                }
+                else{
+                    cantidad = pedircantidad
+                }
+                producto=
+
+            }
+
             //lectura adelantada producto
-            PediryValidarProducto(producto,idProducto); //de aca tiene que volver un id y un nombre de producto válido.
+            //PediryValidarProducto(producto,idProducto); //de aca tiene que volver un id y un nombre de producto válido.
 
             while(idProducto != -2){ //- 2 equivale a la condicoin de salida ZZZ
                     //ojo por que el producto TIENE que ser valido, sino, no pido la cantidad
