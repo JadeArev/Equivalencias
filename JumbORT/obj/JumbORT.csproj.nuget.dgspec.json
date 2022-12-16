@@ -1,34 +1,24 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\Jade\\Desktop\\Equivalencias\\OrtPalooza\\OrtPalooza.csproj": {}
+    "C:\\Users\\46208706\\Desktop\\Equivalencias\\JumbORT\\JumbORT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jade\\Desktop\\Equivalencias\\OrtPalooza\\OrtPalooza.csproj": {
+    "C:\\Users\\46208706\\Desktop\\Equivalencias\\JumbORT\\JumbORT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jade\\Desktop\\Equivalencias\\OrtPalooza\\OrtPalooza.csproj",
-        "projectName": "OrtPalooza",
-        "projectPath": "C:\\Users\\Jade\\Desktop\\Equivalencias\\OrtPalooza\\OrtPalooza.csproj",
-        "packagesPath": "C:\\Users\\Jade\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jade\\Desktop\\Equivalencias\\OrtPalooza\\obj\\",
-=======
-    "C:\\Users\\46208706\\Desktop\\Equivalencias\\OrtPalooza\\OrtPalooza.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\46208706\\Desktop\\Equivalencias\\OrtPalooza\\OrtPalooza.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\46208706\\Desktop\\Equivalencias\\OrtPalooza\\OrtPalooza.csproj",
-        "projectName": "OrtPalooza",
-        "projectPath": "C:\\Users\\46208706\\Desktop\\Equivalencias\\OrtPalooza\\OrtPalooza.csproj",
+        "projectUniqueName": "C:\\Users\\46208706\\Desktop\\Equivalencias\\JumbORT\\JumbORT.csproj",
+        "projectName": "JumbORT",
+        "projectPath": "C:\\Users\\46208706\\Desktop\\Equivalencias\\JumbORT\\JumbORT.csproj",
         "packagesPath": "C:\\Users\\46208706\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\46208706\\Desktop\\Equivalencias\\OrtPalooza\\obj\\",
->>>>>>> f018d6d3f661943568f5bf5cb2dfbed470ae7b3c
+        "outputPath": "C:\\Users\\46208706\\Desktop\\Equivalencias\\JumbORT\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Jade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\46208706\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -1,0 +1,15 @@
+C:\Users\46208706\Desktop\Equivalencias\EjercicioSimple\bin\Debug\net6.0\EjercicioSimple.exe
+C:\Users\46208706\Desktop\Equivalencias\EjercicioSimple\bin\Debug\net6.0\EjercicioSimple.deps.json
+C:\Users\46208706\Desktop\Equivalencias\EjercicioSimple\bin\Debug\net6.0\EjercicioSimple.runtimeconfig.json
+C:\Users\46208706\Desktop\Equivalencias\EjercicioSimple\bin\Debug\net6.0\EjercicioSimple.dll
+C:\Users\46208706\Desktop\Equivalencias\EjercicioSimple\bin\Debug\net6.0\EjercicioSimple.pdb
+C:\Users\46208706\Desktop\Equivalencias\EjercicioSimple\obj\Debug\net6.0\EjercicioSimple.csproj.AssemblyReference.cache
+C:\Users\46208706\Desktop\Equivalencias\EjercicioSimple\obj\Debug\net6.0\EjercicioSimple.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46208706\Desktop\Equivalencias\EjercicioSimple\obj\Debug\net6.0\EjercicioSimple.AssemblyInfoInputs.cache
+C:\Users\46208706\Desktop\Equivalencias\EjercicioSimple\obj\Debug\net6.0\EjercicioSimple.AssemblyInfo.cs
+C:\Users\46208706\Desktop\Equivalencias\EjercicioSimple\obj\Debug\net6.0\EjercicioSimple.csproj.CoreCompileInputs.cache
+C:\Users\46208706\Desktop\Equivalencias\EjercicioSimple\obj\Debug\net6.0\EjercicioSimple.dll
+C:\Users\46208706\Desktop\Equivalencias\EjercicioSimple\obj\Debug\net6.0\refint\EjercicioSimple.dll
+C:\Users\46208706\Desktop\Equivalencias\EjercicioSimple\obj\Debug\net6.0\EjercicioSimple.pdb
+C:\Users\46208706\Desktop\Equivalencias\EjercicioSimple\obj\Debug\net6.0\EjercicioSimple.genruntimeconfig.cache
+C:\Users\46208706\Desktop\Equivalencias\EjercicioSimple\obj\Debug\net6.0\ref\EjercicioSimple.dll

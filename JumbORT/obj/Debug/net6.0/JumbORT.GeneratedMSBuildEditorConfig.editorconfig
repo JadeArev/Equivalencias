@@ -6,9 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = OrtPalooza
-<<<<<<< HEAD
-build_property.ProjectDir = c:\Users\Jade\Desktop\Equivalencias\OrtPalooza\
-=======
-build_property.ProjectDir = C:\Users\46208706\Desktop\Equivalencias\OrtPalooza\
->>>>>>> f018d6d3f661943568f5bf5cb2dfbed470ae7b3c
+build_property.RootNamespace = JumbORT
+build_property.ProjectDir = C:\Users\46208706\Desktop\Equivalencias\JumbORT\
