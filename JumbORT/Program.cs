@@ -26,7 +26,7 @@ namespace HelloWorld
         while(dni != -1){
             
             Console.WriteLine("Ingresa el número de caja:");
-            numCaja = PedirCaja();
+            numCaja = PedirCaja(); // Para hacer validaciones de variables, las hago en una función aparte, retornándolas
 
             PedirCaja(){
 
