@@ -9,9 +9,9 @@ namespace HelloWorld
       string[] Entradas = {"GENERAL", "PREFERENCIAL", "VIP", "PREMIUM", "FAN"};
 
       string tipoEntrada = "";
-      int posicion =-1;
+      int posicion = -1;
 
-        Console.Write("Ingresar tipo entrada: ");
+        Console.WriteLine("Ingresar tipo entrada:");
         tipoEntrada = Console.ReadLine();
         posicion = ValidarEntrada(tipoEntrada, Entradas);
 
@@ -19,14 +19,12 @@ namespace HelloWorld
         while  (posicion==-1){
              Console.WriteLine("Error. Ingresar otro.");
 
-            Console.Write("Ingresar tipo entrada: ");
+            Console.WriteLine("Ingresar tipo entrada:");
             tipoEntrada = Console.ReadLine();
             posicion = ValidarEntrada(tipoEntrada, Entradas);
 
         }
         //----- ya se que no es un error porque salio del ciclo comparado con -1
-
-        tipoEntrada = Console.ReadLine();
 
         while  (tipoEntrada != "ZZZ"){
             posicion = ValidarEntrada(tipoEntrada, Entradas);
@@ -35,7 +33,7 @@ namespace HelloWorld
                 Console.WriteLine("Error. Ingresar otro.");
             } else {
                 // proceso todo lo que tengo procesar
-                Console.Write("la posicion de " + tipoEntrada + " es: " + posicion);
+                Console.WriteLine("la posicion de " + tipoEntrada + " es: " + posicion);
             }
             Console.Write("Ingresar tipo entrada: ");
             tipoEntrada = Console.ReadLine();
