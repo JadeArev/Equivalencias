@@ -15,7 +15,6 @@ namespace HelloWorld
         tipoEntrada = Console.ReadLine();
         posicion = ValidarEntrada(tipoEntrada, Entradas);
 
-
         while  (posicion==-1){
              Console.WriteLine("Error. Ingresar otro.");
 
