@@ -61,10 +61,6 @@ namespace HelloWorld
         dni = int.Parse(Console.ReadLine());
         }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> f018d6d3f661943568f5bf5cb2dfbed470ae7b3c
         Console.WriteLine("la persona que más gastó hasta ahora es " + dniMasGasto + " cuyo gasto fue de " + MasGasto);
 
         for(int i = 0; i < RecaudacionXDia.Length; i++){
@@ -80,11 +76,8 @@ namespace HelloWorld
 
         RecaudacionXDia[dia-1] += recaudacion;
       
-<<<<<<< HEAD
+
           return RecaudacionXDia;
-=======
-        return RecaudacionXDia;
->>>>>>> f018d6d3f661943568f5bf5cb2dfbed470ae7b3c
       }
       static int Posicion(string tipoEntrada, string[] Entradas){
 
@@ -101,11 +94,7 @@ namespace HelloWorld
           }
           i++;
         }
-<<<<<<< HEAD
           return posicion;
-=======
-        return posicion;
->>>>>>> f018d6d3f661943568f5bf5cb2dfbed470ae7b3c
       }
       static int[] MasVendidas(int posicion, int cantEntradas, int[] CantEntradasVendidas){
 
