@@ -60,9 +60,7 @@ namespace HelloWorld
         Console.WriteLine("Ingrese su DNI");
         dni = int.Parse(Console.ReadLine());
         }
-
-        Console.WriteLine("" + Entradas[posicion] + Precios[posicion]);
-
+        
         Console.WriteLine("la persona que más gastó hasta ahora es " + dniMasGasto + " cuyo gasto fue de " + MasGasto);
 
         for(int i = 0; i < RecaudacionXDia.Length; i++){
