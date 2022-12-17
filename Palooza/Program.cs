@@ -15,7 +15,8 @@ namespace HelloWorld
       int cantEntradas = 0;
       int posicion = 0; //esta posición me servirá para poder encontrar la posición que comparten ambos arrays
       // de entradas y precios y así poder mostrarlos con la misma posición. 
-
+      int MasGasto = 0;
+      int dniMasGasto = 0;
       //Lectura adelantada
       Console.WriteLine("Ingrese su DNI:");
       dni = int.Parse(Console.ReadLine());
@@ -25,12 +26,18 @@ namespace HelloWorld
          dia = PedirDia(dia);
          posicion = BusquedayValidarEntrada(Entradas, tipoEntrada);
          cantEntradas = PedirCantidad(cantEntradas);
+         Console.WriteLine(dni + " gastó " + Precios[posicion] * cantEntradas + " para " + cantEntradas + " entrada/s " + Entradas[posicion] + " para el día " + dia);
+         
+            if(Precios[posicion] * cantEntradas > MasGasto){
 
-         Console.WriteLine(dni + " gastó " + Precios[posicion] * cantEntradas + " para entrada/s " + Entradas[posicion] + " para el día " + dia);
-         //
+               MasGasto = Precios[posicion] * cantEntradas;
+               dniMasGasto = dni;
+            }
+          //
           Console.WriteLine("Ingrese su DNI");
           dni = int.Parse(Console.ReadLine());
       }
+          Console.WriteLine("La persona que más gastó hasta ahora es " + dniMasGasto + ", cuyo gasto fue de " + MasGasto);
     } 
     static int PedirDia(int dia){
         Console.WriteLine("Ingrese el día al que asiste:");
@@ -42,7 +49,7 @@ namespace HelloWorld
       return dia;
     }
     static int BusquedayValidarEntrada(string[] Entradas, string tipoEntrada){ 
-      //FUNCIÓN QUE BUSCA LA ENTRADA EN EL ARRAY 
+      //FUNCIÓN QUE BUSCA LA ENTRADA EN EL ARRAY PARA VER SI LA ENCUENTRA Y ES VÁLIDA. DEVUELVE LA POSICIÓN EN DÓNDE ESTÁ. SINO, ES -1.
         Console.WriteLine("Ingrese el tipo de entrada:");
         tipoEntrada = Console.ReadLine().ToUpper();
           int posicion = -1;
