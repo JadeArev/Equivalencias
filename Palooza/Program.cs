@@ -36,12 +36,12 @@ namespace HelloWorld
       }
           Console.WriteLine("La persona que más gastó hasta ahora es " + dniMasGasto + " cuyo gasto es de " + MasGasto);
     } 
-        static int PedirDia(int dia){
-            Console.WriteLine("Ingrese el día al que asiste:");
-            dia = int.Parse(Console.ReadLine());
-              while(dia < 1 || dia > 4){
-                  Console.WriteLine("Error. Ingrese un día válido:");
-                  dia = int.Parse(Console.ReadLine());
+          static int PedirDia(int dia){
+              Console.WriteLine("Ingrese el día al que asiste:");
+              dia = int.Parse(Console.ReadLine());
+                  while(dia < 1 || dia > 4){
+                    Console.WriteLine("Error. Ingrese un día válido:");
+                    dia = int.Parse(Console.ReadLine());
       }
             return dia;
     }
