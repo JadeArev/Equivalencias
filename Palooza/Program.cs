@@ -22,7 +22,6 @@ namespace HelloWorld
       dni = int.Parse(Console.ReadLine());
 
       while(dni != -1){
-
          dia = PedirDia(dia);
          posicion = BusquedayValidarEntrada(Entradas, tipoEntrada);
          cantEntradas = PedirCantidad(cantEntradas);
@@ -56,9 +55,7 @@ namespace HelloWorld
               bool aparecio = false;
 
                 while(idEntrada < Entradas.Length && !aparecio){
-
                     if(tipoEntrada == Entradas[idEntrada]){
-
                     posicion = idEntrada;
                     aparecio = true;
           }
@@ -80,11 +77,9 @@ namespace HelloWorld
           }
           return cantEntradas;
       }
-
       static int PersonaMasGasto(int MasGasto, int dniMasGasto, int posicion, int cantEntradas, int[] Precios, int dni){
 
               if(Precios[posicion] * cantEntradas > MasGasto){
-
                   MasGasto = Precios[posicion] * cantEntradas;
                   dniMasGasto = dni;
             }
