@@ -14,15 +14,16 @@ namespace HelloWorld
       int cantidad = 0;
       char formadePago = '\0';
       int posicion = 0;
-      int totalf = 0;
-      int totalProducto=0;
-      int ticket=0;
+      int totalProducto = 0;
+      int ticket= 0;
       int total = 0;
 
       Console.WriteLine("Ingrese tu DNI");
       dni = int.Parse(Console.ReadLine());
 
         while(dni != -1){
+
+        ticket = 0;
         
         numCaja = PedirCaja(numCaja);
 
@@ -38,23 +39,20 @@ namespace HelloWorld
                   else{
                     cantidad = PedirCantidad(cantidad);
                     totalProducto = Precios[posicion] * cantidad;
-                     ticket += totalProducto ;
+                     ticket += totalProducto;
                   }
                 Console.WriteLine("Ingrese el producto:");
                 producto = Console.ReadLine().ToUpper();
-            }
-                //totalf += Precios[posicion] * cantidad;
-               
+            }               
                 formadePago = PedirPago(formadePago);
                 Console.WriteLine(dni + " abona " + ticket + " con " + formadePago);
 
-                
+                total += ticket;
+
                 Console.WriteLine("Ingrese su DNI");
                 dni = int.Parse(Console.ReadLine());
             }
-            total = TotalFactura(Precios, posicion, cantidad, ticket);
-
-            
+              
             Console.WriteLine("la recaudación total es " + total);
         }
         static int PedirCaja(int numCaja){
@@ -104,15 +102,5 @@ namespace HelloWorld
             }
             return formadePago;
         }
-
-        static int TotalFactura(int[] Precios, int posicion, int cantidad, int totalProducto){
-
-            totalProducto += Precios[posicion] * cantidad;
-
-            return totalProducto;
-        }
-
-    
-
     }      
   }
