@@ -28,10 +28,10 @@ namespace HelloWorld
          cantEntradas = PedirCantidad(cantEntradas);
          Console.WriteLine(dni + " gastó " + Precios[posicion] * cantEntradas + " para " + cantEntradas + " entrada/s " + Entradas[posicion] + " para el día " + dia);
          
-            if(Precios[posicion] * cantEntradas > MasGasto){
+                if(Precios[posicion] * cantEntradas > MasGasto){
 
-               MasGasto = Precios[posicion] * cantEntradas;
-               dniMasGasto = dni;
+                  MasGasto = Precios[posicion] * cantEntradas;
+                  dniMasGasto = dni;
             }
           //
           Console.WriteLine("Ingrese su DNI");
