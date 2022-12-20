@@ -27,13 +27,11 @@ namespace HelloWorld
          posicion = BusquedayValidarEntrada(Entradas, tipoEntrada);
          cantEntradas = PedirCantidad(cantEntradas);
          Console.WriteLine(dni + " gastó " + Precios[posicion] * cantEntradas + " para " + cantEntradas + " entrada/s " + Entradas[posicion] + " para el día " + dia);
-<<<<<<< HEAD
          
                 if(Precios[posicion] * cantEntradas > MasGasto){
-=======
-         dniMasGasto = PersonaMasGasto(MasGasto, dniMasGasto, posicion, cantEntradas, Precios, dni);
-         if(dniMasGasto == dni){
-         MasGasto = Precios[posicion] * cantEntradas;
+                dniMasGasto = PersonaMasGasto(MasGasto, dniMasGasto, posicion, cantEntradas, Precios, dni);
+                  if(dniMasGasto == dni){
+                    MasGasto = Precios[posicion] * cantEntradas;
          }  
           Console.WriteLine("Ingrese su DNI");
           dni = int.Parse(Console.ReadLine());
@@ -86,15 +84,14 @@ namespace HelloWorld
       static int PersonaMasGasto(int MasGasto, int dniMasGasto, int posicion, int cantEntradas, int[] Precios, int dni){
 
               if(Precios[posicion] * cantEntradas > MasGasto){
->>>>>>> e6f98bbc3745216dc3534d3b0c7e9e42451c786e
 
                   MasGasto = Precios[posicion] * cantEntradas;
                   dniMasGasto = dni;
             }
-        
-          return dniMasGasto;
+             return dniMasGasto;
       }
-
     }      
   }
+
+}
 
