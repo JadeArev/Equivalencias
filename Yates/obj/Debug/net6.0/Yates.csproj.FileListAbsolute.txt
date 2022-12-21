@@ -1,0 +1,15 @@
+C:\Users\46208706\Desktop\Equivalencias\Yates\obj\Debug\net6.0\Yates.csproj.AssemblyReference.cache
+C:\Users\46208706\Desktop\Equivalencias\Yates\obj\Debug\net6.0\Yates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46208706\Desktop\Equivalencias\Yates\obj\Debug\net6.0\Yates.AssemblyInfoInputs.cache
+C:\Users\46208706\Desktop\Equivalencias\Yates\obj\Debug\net6.0\Yates.AssemblyInfo.cs
+C:\Users\46208706\Desktop\Equivalencias\Yates\obj\Debug\net6.0\Yates.csproj.CoreCompileInputs.cache
+C:\Users\46208706\Desktop\Equivalencias\Yates\bin\Debug\net6.0\Yates.exe
+C:\Users\46208706\Desktop\Equivalencias\Yates\bin\Debug\net6.0\Yates.deps.json
+C:\Users\46208706\Desktop\Equivalencias\Yates\bin\Debug\net6.0\Yates.runtimeconfig.json
+C:\Users\46208706\Desktop\Equivalencias\Yates\bin\Debug\net6.0\Yates.dll
+C:\Users\46208706\Desktop\Equivalencias\Yates\bin\Debug\net6.0\Yates.pdb
+C:\Users\46208706\Desktop\Equivalencias\Yates\obj\Debug\net6.0\Yates.dll
+C:\Users\46208706\Desktop\Equivalencias\Yates\obj\Debug\net6.0\refint\Yates.dll
+C:\Users\46208706\Desktop\Equivalencias\Yates\obj\Debug\net6.0\Yates.pdb
+C:\Users\46208706\Desktop\Equivalencias\Yates\obj\Debug\net6.0\Yates.genruntimeconfig.cache
+C:\Users\46208706\Desktop\Equivalencias\Yates\obj\Debug\net6.0\ref\Yates.dll

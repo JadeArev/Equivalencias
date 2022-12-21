@@ -176,6 +176,6 @@ namespace HelloWorld
                   dniMasGasto = dni;
             }
              return dniMasGasto;
-      }
+        }
     }
-    }      
+}      
