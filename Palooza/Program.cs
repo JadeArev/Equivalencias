@@ -59,7 +59,6 @@ namespace HelloWorld
               entradamasvendida = Entradas[i];
             }
         }
-
         Console.WriteLine("La entrada más vendida es " + entradamasvendida + " cuya cantidad es " + max);
 
           static int PedirDia(int dia){
