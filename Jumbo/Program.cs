@@ -13,22 +13,29 @@ namespace HelloWorld
       string producto = "";
       int cantidad = 0;
       char formadePago = '\0';
-      int posicion = 0;
+      int posicion = 0; 
       int totalProducto = 0;
       int ticket= 0;
       int total = 0;
+      int descontado = 0; 
       const int cajas = 10;
       int[] clientesXCaja = new int[cajas] {0,0,0,0,0,0,0,0,0,0};
-
+      int[] ProductosMasVendidos = new int[8] {0,0,0,0,0,0,0,0};
+      int max = 0;
+      string productomasvendido = "";
+      int contadorclientes = 0;
+      int min = clientesXCaja[0];
+      int cajamenosclientes = 0;
       Console.WriteLine("Ingrese tu DNI");
       dni = int.Parse(Console.ReadLine());
 
         while(dni != -1){
 
         ticket = 0;
+        descontado = 0;
+        contadorclientes = 0;
         
         numCaja = PedirCaja(numCaja);
-
           Console.WriteLine("Ingrese el producto:");
           producto = Console.ReadLine().ToUpper();
 
@@ -45,17 +52,41 @@ namespace HelloWorld
                   }
                 Console.WriteLine("Ingrese el producto:");
                 producto = Console.ReadLine().ToUpper();
-            }               
+                ProductosMasVendidos = ProdsMasVendidos(posicion, cantidad, ProductosMasVendidos);
+                  for(int i = 0; i < ProductosMasVendidos.Length; i++){
+                    if(ProductosMasVendidos[i] > max){
+                    max = ProductosMasVendidos[i];
+                    productomasvendido = Productos[i];
+            }
+        }
+    }    
                 formadePago = PedirPago(formadePago);
-                Console.WriteLine(dni + " abona " + ticket + " con " + formadePago);
+                 if(formadePago == 'E'){
+                    descontado = (ticket * 5) / 100;
+                    Console.WriteLine(dni + " abona " + (ticket - descontado) + " con " + formadePago);
+                    }
+                 else{
+                    Console.WriteLine(dni + " abona " + ticket + " con " + formadePago);
+                 }
 
-                total += ticket;
-
+                total += ticket - descontado;
+                clientesXCaja = ClientesPorCaja(clientesXCaja, numCaja, contadorclientes);
+                
                 Console.WriteLine("Ingrese su DNI");
                 dni = int.Parse(Console.ReadLine());
             }
-              
             Console.WriteLine("la recaudación total es " + total);
+            
+            for(int i = 0; i < ProductosMasVendidos.Length; i++){
+                Console.WriteLine("El producto " + Productos[i] + " se vendió " + ProductosMasVendidos[i] + " veces.");
+            }
+        Console.WriteLine("El producto más vendida es " + productomasvendido + " cuya cantidad es " + max);
+            for(int i = 0; i < clientesXCaja.Length; i++){
+                Console.WriteLine("En la caja " + (i+1) + " hubieron " + clientesXCaja[i] + " clientes.");
+            }
+
+            cajamenosclientes = MenosClientes(clientesXCaja, numCaja, min, cajamenosclientes);
+            Console.WriteLine("la caja con menos clientes es " + cajamenosclientes);
         }
         static int PedirCaja(int numCaja){
 
@@ -84,7 +115,6 @@ namespace HelloWorld
                 }
                 return posicion;
         }      
-
         static int PedirCantidad(int cantidad){
             Console.WriteLine("Ingrese la cantidad de productos:");
             cantidad = int.Parse(Console.ReadLine());
@@ -103,6 +133,30 @@ namespace HelloWorld
                 formadePago = char.Parse(Console.ReadLine());
             }
             return formadePago;
+        }
+
+        static int[] ProdsMasVendidos(int posicion, int cantidad, int[] ProductosMasVendidos){
+
+            ProductosMasVendidos[posicion] += cantidad;
+            return ProductosMasVendidos;
+        }
+
+        static int[] ClientesPorCaja(int[] clientesXCaja, int numCaja, int contadorclientes){
+
+            contadorclientes = 1;
+            clientesXCaja[numCaja-1] += contadorclientes;
+            return clientesXCaja;
+        }
+
+        static int MenosClientes(int[] clientesXCaja, int numCaja, int min, int cajamenosclientes){
+
+            for(int i = 0; i < clientesXCaja.Length; i++){
+                if(clientesXCaja[i] < min){
+                    min = clientesXCaja[i];
+                    cajamenosclientes = numCaja;
+                }
+            }
+            return cajamenosclientes;
         }
     }      
   }
