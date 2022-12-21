@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\Jade\\Desktop\\Equivalencias\\OrtPalooza\\OrtPalooza.csproj": {}
   },
   "projects": {
@@ -13,19 +12,6 @@
         "projectPath": "C:\\Users\\Jade\\Desktop\\Equivalencias\\OrtPalooza\\OrtPalooza.csproj",
         "packagesPath": "C:\\Users\\Jade\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Jade\\Desktop\\Equivalencias\\OrtPalooza\\obj\\",
-=======
-    "C:\\Users\\46208706\\Desktop\\Equivalencias\\OrtPalooza\\OrtPalooza.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\46208706\\Desktop\\Equivalencias\\OrtPalooza\\OrtPalooza.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\46208706\\Desktop\\Equivalencias\\OrtPalooza\\OrtPalooza.csproj",
-        "projectName": "OrtPalooza",
-        "projectPath": "C:\\Users\\46208706\\Desktop\\Equivalencias\\OrtPalooza\\OrtPalooza.csproj",
-        "packagesPath": "C:\\Users\\46208706\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\46208706\\Desktop\\Equivalencias\\OrtPalooza\\obj\\",
->>>>>>> f018d6d3f661943568f5bf5cb2dfbed470ae7b3c
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jade\\AppData\\Roaming\\NuGet\\NuGet.Config",

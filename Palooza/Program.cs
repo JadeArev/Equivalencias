@@ -17,6 +17,11 @@ namespace HelloWorld
       // de entradas y precios y así poder mostrarlos con la misma posición. 
       int MasGasto = 0;
       int dniMasGasto = 0;
+      int[] RecaudacionPorDia = new int[dias] {0,0,0,0};
+      int[] CantEntradasVendidas = new int[5] {0,0,0,0,0};
+      int max = 0;
+      string entradamasvendida = "";
+
       //Lectura adelantada
       Console.WriteLine("Ingrese su DNI:");
       dni = int.Parse(Console.ReadLine());
@@ -25,18 +30,38 @@ namespace HelloWorld
          dia = PedirDia(dia);
          posicion = BusquedayValidarEntrada(Entradas, tipoEntrada);
          cantEntradas = PedirCantidad(cantEntradas);
-         Console.WriteLine(dni + " gastó " + Precios[posicion] * cantEntradas + " para " + cantEntradas + " entrada/s " + Entradas[posicion] + " para el día " + dia);
-         
-                if(Precios[posicion] * cantEntradas > MasGasto){
+
+         if(Precios[posicion] * cantEntradas > MasGasto){
                 dniMasGasto = PersonaMasGasto(MasGasto, dniMasGasto, posicion, cantEntradas, Precios, dni);
                   if(dniMasGasto == dni){
                     MasGasto = Precios[posicion] * cantEntradas;
-         }  
-          Console.WriteLine("Ingrese su DNI");
-          dni = int.Parse(Console.ReadLine());
+         } 
       }
-          Console.WriteLine("La persona que más gastó hasta ahora es " + dniMasGasto + " cuyo gasto es de " + MasGasto);
+      Console.WriteLine(dni + " gastó " + Precios[posicion] * cantEntradas + " para " + cantEntradas + " entrada/s " + Entradas[posicion] + " para el día " + dia);
+        RecaudacionPorDia = RecaudacionXDia(RecaudacionPorDia, Precios, posicion, cantEntradas, dia);
+        CantEntradasVendidas = MasVendidas(posicion, cantEntradas, CantEntradasVendidas);
+      
+        Console.WriteLine("Ingrese su DNI");
+          dni = int.Parse(Console.ReadLine());
     } 
+        Console.WriteLine("La persona que más gastó hasta ahora es " + dniMasGasto + " cuyo gasto es de " + MasGasto);
+          
+          for(int i = 0; i < RecaudacionPorDia.Length; i++){
+            Console.WriteLine("La recaudación por el día " + (i+1) + " es de " + RecaudacionPorDia[i]);
+        }
+          for(int i = 0; i < CantEntradasVendidas.Length; i++){
+            Console.WriteLine("La cantidad de entradas vendidas para el tipo " + Entradas[i] + " es " + CantEntradasVendidas[i]);
+        }
+
+        for(int i = 0; i < CantEntradasVendidas.Length; i++){
+            if(CantEntradasVendidas[i] > max){
+              max = CantEntradasVendidas[i];
+              entradamasvendida = Entradas[i];
+            }
+        }
+
+        Console.WriteLine("La entrada más vendida es " + entradamasvendida + " cuya cantidad es " + max);
+
           static int PedirDia(int dia){
               Console.WriteLine("Ingrese el día al que asiste:");
               dia = int.Parse(Console.ReadLine());
@@ -85,8 +110,19 @@ namespace HelloWorld
             }
              return dniMasGasto;
       }
-    }      
-  }
+    }
+    static int[] RecaudacionXDia(int[] RecaudacionPorDia, int[] Precios, int posicion, int cantEntradas, int dia){
+      
+      int recaudacion = Precios[posicion] * cantEntradas;
+        RecaudacionPorDia[dia-1] += recaudacion;
+          return RecaudacionPorDia;
+    } 
 
+    static int[] MasVendidas(int posicion, int cantEntradas, int[] CantEntradasVendidas){
+
+         CantEntradasVendidas[posicion] += cantEntradas;
+          return CantEntradasVendidas;
+      }   
+  }
 }
 

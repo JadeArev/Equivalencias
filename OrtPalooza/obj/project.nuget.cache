@@ -1,14 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "Gq2VLZ5FQDMmpKf0gvUt9o7H1PEEEWXed0/4pl2JsmBnumONTrct/yPre6IRkcIR/XpSM7n3AVeIq/0Wo4YLtQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jade\\Desktop\\Equivalencias\\OrtPalooza\\OrtPalooza.csproj",
-=======
-  "dgSpecHash": "ji5jrCmDwQAYNWc+KkEDNIlDnny6U987VvzJOO0d+KceWwteX1mxtCQ+y/Y9GCn53qL8wUKMt9+QNHnr6zFvOw==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\46208706\\Desktop\\Equivalencias\\OrtPalooza\\OrtPalooza.csproj",
->>>>>>> f018d6d3f661943568f5bf5cb2dfbed470ae7b3c
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Jade\\Desktop\\Equivalencias\\OrtPalooza\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

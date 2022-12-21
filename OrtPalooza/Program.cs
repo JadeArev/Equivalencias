@@ -6,6 +6,7 @@ namespace HelloWorld
   {
      static void Main(string[] args)
     {
+
       const int dias = 4;
       int[] Precios = {3500, 6700, 10000, 15000, 25000};
       string[] Entradas = {"GENERAL", "PREFERENCIAL", "VIP", "PREMIUM", "FAN"};
@@ -51,7 +52,6 @@ namespace HelloWorld
           MasGasto = PrecioEntrada * cantEntradas;
           dniMasGasto = dni;
          }
-
         Console.WriteLine(dni + " gastó " + PrecioEntrada * cantEntradas + " pesos por " + cantEntradas + " entrada/s " + tipoEntrada + " para el día " + dia);        
         RecaudacionXDia = RecaudacionPorDia(RecaudacionXDia, PrecioEntrada, cantEntradas, dia);
          posicion = Posicion(tipoEntrada, Entradas);

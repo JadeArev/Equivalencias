@@ -17,6 +17,8 @@ namespace HelloWorld
       int totalProducto = 0;
       int ticket= 0;
       int total = 0;
+      const int cajas = 10;
+      int[] clientesXCaja = new int[cajas] {0,0,0,0,0,0,0,0,0,0};
 
       Console.WriteLine("Ingrese tu DNI");
       dni = int.Parse(Console.ReadLine());
