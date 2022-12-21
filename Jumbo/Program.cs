@@ -57,19 +57,19 @@ namespace HelloWorld
                 producto = Console.ReadLine().ToUpper();
                 ProductosMasVendidos = ProdsMasVendidos(posicion, cantidad, ProductosMasVendidos);
                   for(int i = 0; i < ProductosMasVendidos.Length; i++){
-                    if(ProductosMasVendidos[i] > max){
-                    max = ProductosMasVendidos[i];
-                    productomasvendido = Productos[i];
-            }
-        }
+                        if(ProductosMasVendidos[i] > max){
+                        max = ProductosMasVendidos[i];
+                        productomasvendido = Productos[i];
+                        }
+                    }
 
-        if(ticket > MasGasto){
+                 if(ticket > MasGasto){
                 dniMasGasto = PersonaMasGasto(MasGasto, dniMasGasto, cantidad, ticket, dni);
                   if(dniMasGasto == dni){
                     MasGasto = ticket;
-         } 
-      }
-    }    
+                   } 
+                }
+            }    
                 formadePago = PedirPago(formadePago);
                  if(formadePago == 'E'){
                     descontado = (ticket * 5) / 100;
