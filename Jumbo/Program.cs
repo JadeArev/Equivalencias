@@ -26,6 +26,9 @@ namespace HelloWorld
       int contadorclientes = 0;
       int min = clientesXCaja[0];
       int cajamenosclientes = 0;
+      int MasGasto = 0;
+      int dniMasGasto = 0;
+      
       Console.WriteLine("Ingrese tu DNI");
       dni = int.Parse(Console.ReadLine());
 
@@ -59,6 +62,13 @@ namespace HelloWorld
                     productomasvendido = Productos[i];
             }
         }
+
+        if(ticket > MasGasto){
+                dniMasGasto = PersonaMasGasto(MasGasto, dniMasGasto, cantidad, ticket, dni);
+                  if(dniMasGasto == dni){
+                    MasGasto = ticket;
+         } 
+      }
     }    
                 formadePago = PedirPago(formadePago);
                  if(formadePago == 'E'){
@@ -75,6 +85,7 @@ namespace HelloWorld
                 Console.WriteLine("Ingrese su DNI");
                 dni = int.Parse(Console.ReadLine());
             }
+            Console.WriteLine("La persona que más gastó hasta ahora es " + dniMasGasto + " cuyo gasto es de " + MasGasto);
             Console.WriteLine("la recaudación total es " + total);
             
             for(int i = 0; i < ProductosMasVendidos.Length; i++){
@@ -98,7 +109,6 @@ namespace HelloWorld
             }
             return numCaja;
         }
-
         static int BusquedaYValidaProducto(string[] Productos, string producto){
              int posicion = -1;
              int idProducto = 0;
@@ -158,5 +168,14 @@ namespace HelloWorld
             }
             return cajamenosclientes;
         }
+
+        static int PersonaMasGasto(int MasGasto, int dniMasGasto, int cantidad, int ticket, int dni){
+
+              if(ticket > MasGasto){
+                  MasGasto = ticket;
+                  dniMasGasto = dni;
+            }
+             return dniMasGasto;
+      }
+    }
     }      
-  }
